@@ -17,7 +17,7 @@
 
 <div>
   <app-article
-    *ngFor="let article of articles"
-    [article]="article">
+    *ngFor="let oneArticle of sortedArticles()"
+    [article]="oneArticle">
   </app-article>
 </div>
